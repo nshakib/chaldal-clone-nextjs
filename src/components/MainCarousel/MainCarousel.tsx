@@ -1,10 +1,11 @@
 import React from 'react'
 import { Carousel, Image } from 'antd';
+// import style from './MainCarousel.module.css'
 
 
 const MainCarousel = () => {
   return (
-    <Carousel autoplay>
+    <Carousel autoplay className='carousel-container'>
       <div>
         <Image src="/images/carousel-demo-images/fashion-1031469_1920.jpg" alt=''/>
       </div>

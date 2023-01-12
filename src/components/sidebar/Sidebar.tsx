@@ -117,6 +117,7 @@ const Sidebar = () => {
   };
   return (
     <Menu
+    className='sidebar_menu'
       onClick={onClick}
       style={{ width: 256 }}
       defaultSelectedKeys={['1']}

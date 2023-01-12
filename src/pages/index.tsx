@@ -11,8 +11,9 @@ export default function Home() {
   return (
     <>
       <MainLayout title='React eCommerce Sample'>
-            <Sidebar />
-            <MainCarousel />
+            
+            {/* <Sidebar/>
+            <MainCarousel /> */}
             <HeadingName title="Product Categories" />
             <CategoryListRenderer />
       </MainLayout>

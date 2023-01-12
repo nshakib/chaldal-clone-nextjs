@@ -9,3 +9,7 @@
 Image{
     object-fit: cover;
 }
+
+.carousel-container{
+    overflow: hidden;
+}
